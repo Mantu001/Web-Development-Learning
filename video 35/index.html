@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on CSS Selectors</title>
+    <style>
+        /* .box:first-child {
+            background-color: yellow;
+        }
+        .box:first-line{
+            background-color: rebeccapurple;
+        }
+        .box:nth-child(2) {
+            background-color: brown;
+        } */
+        /* isse sare boxes me ye property apply ho jayega */
+        /* .boxes *{
+            color: blue;
+            background-color: rgb(203, 216, 84);
+        } */
+        /* .box:nth-child(even){
+            background-color: aqua;
+        } */
+        .boxes::before{
+            content: "Mantu is Restarting Web Development";
+        }
+        .boxes::after{
+            content: "From Sigma Web Development";
+        }
+        ::selection{
+            color: rebeccapurple;
+            background-color: yellowgreen;
+        }
+        .box::first-letter{
+            font-size: 30px;
+            color: peru;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="boxes">
+        <div class="box">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi voluptas, quasi error expedita
+            rerum architecto porro quo, eos alias dicta at unde, sequi deleniti labore debitis odio cum tempore facere.
+        </div>
+        <div class="box">Lorem ipsum dolor sit amet.</div>
+        <div class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, corporis.</div>
+        <div class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam temporibus unde praesentium maiores non consectetur sit ratione nihil autem commodi repellat rem, necessitatibus, tempore, mollitia quos pariatur ab eos. Suscipit?</div>
+    </div>
+</body>
+
+</html>

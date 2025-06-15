@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Position Property</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .parent{
+            height: 200vh;
+            width: 90vw;
+            border: 4px solid black;
+            margin: 20px;
+            padding: 20px;
+            /* position: absolute; */
+        }
+        .box1{
+            background-color: aqua;
+            /* position: absolute; */
+            /* top: 10px; */
+        }
+        .box2{
+            /* position: absolute; */
+            /* top: 0%; */
+            /* left: 34px; */
+            background-color: bisque;
+        }
+        .box3{
+            background-color: blueviolet;
+        }
+        .box4{
+            background-color: lightcoral;
+        }
+        .box{
+            padding: 4px;
+            margin: 10px;
+            height: 133px;
+            width: 80vw;
+            border: 2px solid red;
+        }
+        .circle{
+            border: 1px solid black;
+            height: 100px;
+            width: 100px;
+            background-color: brown;
+            /* it can fixed the postion of the div  */
+            position: fixed;
+            left: 1170px;
+            bottom: 23px;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+        <div class="box box4"></div>
+        <div class="circle"></div>
+    </div>
+</body>
+</html>

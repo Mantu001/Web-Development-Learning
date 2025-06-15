@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Display</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            border: 2px solid red;
+            display: inline-block;
+            padding: 40px;
+            width: 350px;
+            display: inline-flex;
+            justify-content: center;
+        }
+
+        .box1 {
+            padding: 20px;
+            border: 2px solid red;
+            display: inline;
+            /* niche ka do line ka matlab hai jagah rahega par item gayab rahega */
+            /* display: none;  */
+            visibility: hidden;
+        }
+
+        .span1 {
+            padding: 20px;
+            border: 2px solid rebeccapurple;
+        }
+
+        .span2 {
+            border: 2px solid rebeccapurple;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">Hlo i am a box</div>
+    <div class="box1">i am another box</div>
+    <span class="span1">this is span</span>
+    <span class="span2">this is another span</span>
+    <!-- reference website -->
+    <!-- https://developer.mozilla.org/en-US/docs/Web/CSS/display -->
+
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Transition</title>
+    <style>
+        .container{
+            height: 80vh;
+            width: 90%;
+            background-color: beige;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid brown;
+        }
+        .box{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100px;
+            width: 100px;
+            background-color: aqua;
+            border: 2px solid ;
+            transition: transform 3s ease ;
+            transform: rotate(30deg);
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">Box</div>
+    </div>
+</body>
+</html>

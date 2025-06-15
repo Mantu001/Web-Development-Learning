@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 8 sol</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            background-color: aquamarine;
+            height: 80vh;
+            width: 100%;
+            border: 2px solid black;
+            position: absolute;
+        }
+        .ball{
+            height: 80px;
+            width: 80px;
+            background-color: brown;
+            border-radius: 50%;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            animation: motionX 3s linear infinite, motionY 1s ease-out infinite alternate
+        }
+
+        @keyframes motionX {
+            from{
+                left: 0;
+            }
+            to{
+                left: 100%;
+            }
+        }
+        @keyframes motionY {
+            from{
+                bottom: 0;
+            }
+            to{
+                bottom: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Bounce animation solution -->
+    <div class="container">
+        <div class="ball"></div>
+    </div>
+</body>
+</html>

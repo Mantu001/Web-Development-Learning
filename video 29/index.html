@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 3</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            /* border: 1px solid red; */
+        }
+
+        body {
+            background-color: rgb(221, 221, 221);
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .parent {
+            border: 2px solid black;
+            border-radius: 15px;
+            background-color: white;
+            width: 380px;
+            height: 95vh;
+            /* position: absolute; */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        .pic img {
+            border-radius: 15px;
+            /* position: relative; */
+            width: 350px;
+        }
+
+        .nav {
+            display: flex;
+            gap: 20px;
+            margin: 10px;
+        }
+
+        .linkedin {
+            padding: 5px;
+            border: 2px solid rgba(128, 128, 128, 0.423);
+            border-radius: 20px;
+        }
+
+        .whatsapp {
+            padding: 5px;
+            border: 2px solid rgba(128, 128, 128, 0.423);
+            border-radius: 20px;
+        }
+
+        .heading {
+            display: flex;
+        }
+
+        .about {
+            width: 350px;
+            margin: 10px;
+            /* position: relative; */
+        }
+
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            border-radius: 20px;
+            font-weight: 700;
+            border: none;
+            background-color: rgb(175, 246, 246);
+            color: rgb(11, 89, 89);
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: rgb(80, 242, 242);
+            transition: ease 0.5s;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- card.png is a file which contains a card Image. Write html and css code to design this card. Use #html -->
+    <div class="parent">
+        <div class="pic">
+            <img src="mantu.jpg" alt="">
+        </div>
+        <div class="nav">
+            <h4 class="linkedin">Linkedin</h4>
+            <h4 class="whatsapp">Whatsapp</h4>
+        </div>
+        <div class="heading">
+            <h2>Mantu Kumar Tiwari</h2>
+        </div>
+        <div class="about">
+            <p>Hello I am a Graphic Designer and I persuing my B.Tech from Galgotias College of engineering and
+                technology form the branch Artificial Intelligence and Machine Learning</p>
+        </div>
+        <div class="button">
+            <button>Read More</button>
+        </div>
+    </div>
+</body>
+
+</html>

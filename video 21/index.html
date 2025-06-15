@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Specificity</title>
+    <style>
+        /* the speciificity of this selector is 100 */
+        /* #id {
+            color: maroon;
+        } */
+
+        /* the speciificity of this selector is 10 */
+        .class {
+            color: aquamarine;
+        }
+
+        /* the speciificity of this selector is 10 */
+        .yellow {
+            color: yellow;
+        }
+
+        /* the speciificity of this selector is 10 */
+        .red {
+            color: red;
+        }
+
+        /* the speciificity of this selector is 1 + 10 */
+        h1.red {
+            color: rgba(159, 40, 40, 0.572);
+        }
+
+        /* the speciificity of this selector is 10 */
+        /* This is the example of attribure selectors */
+        [data-x=a] {
+            color: blueviolet;
+        }
+        /* the speciificity of this selector is 1 */
+        h1{
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1 id="id" class="class yellow red" data-x="a">CSS Specificity</h1>
+    </div>
+
+    <!-- CSS Selectors pritority list
+    inline style > ID selectors > Class and Attribute > Element > Universal -->
+</body>
+
+</html>

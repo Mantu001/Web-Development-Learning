@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    border: 1px solid red;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+}
+
+.box {
+    margin: 10px;
+    padding: 10px;
+    height: 100px;
+    width: 100px;
+    border: 1px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid black;
+    border-radius: 30px;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /* Element Selectors */
+        h2 {
+            color: brown;
+        }
+
+        /* ID selectors */
+        #list {
+            background-color: yellow;
+        }
+
+        /* Class Selectors */
+        .second {
+            color: red;
+        }
+
+        h4 {
+            color: red;
+        }
+
+        /* child selector */
+        div>p {
+            color: blue;
+        }
+
+        /* Descedent Selectors */
+        div p {
+            color: rgb(37, 188, 185);
+        }
+
+        /* Psudo Selectors */
+        a:visited {
+            color: red;
+        }
+
+        a:link {
+            color: aqua;
+        }
+
+        a:active {
+            background-color: green;
+        }
+
+        a:hover {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Types of Selectors</h2>
+    <ol id="list">
+        <li>universal selectors</li>
+        <li class="second">Element Selectors</li>
+        <li>id selectors</li>
+        <li>class selectors</li>
+        <li>group selectors</li>
+        <li>Child selectors</li>
+        <li>Descedent selectors</li>
+        <li>Psudo selectors</li>
+    </ol>
+
+    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, architecto.</h4>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <div>
+        <b>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+        </b>
+    </div>
+
+    <div>
+        <a target="_blank" href="http://www.google.com">Go to Google</a>
+        <a href="http://www.Facebook.com">Go to Facebook</a>
+        <a target="_blank" href="https://www.apnacollege.in/">Go to Apna College</a>
+        <div>
+            <a target="_blank" href="https://web.dev/learn/css/pseudo-classes">More CSS Selectors</a>
+        </div>
+    </div>
+</body>
+
+</html>

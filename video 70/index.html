@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 12</title>
+    <style>
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            height: 100vh;
+        }
+        .box{
+            height: 50px;
+            width: 50px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <!-- Given 5 boxes assign a random color and random bg to each box using dom concept -->
+     <div class="container">
+        <div class="box">box</div>
+        <div class="box">box</div>
+        <div class="box">box</div>
+        <div class="box">box</div>
+        <div class="box">box</div>
+     </div>
+
+
+     <script src="script.js"></script>
+     <!-- <script>
+
+        const box = document.getElementsByClassName("box");
+        for(let i=0; i<box.length; i++){
+            box[i].style.color = randomColor();
+            box[i].style.backgroundColor = randomColor();
+        }
+
+        function randomColor(){
+            const letter = '0123456789ABCDEF'
+            let color = '#'
+            for (let i=0; i<6; i++){
+                color += letter[Math.floor(Math.random()*16)]
+            }
+            console.log(color)
+            return color;
+        }
+     </script> -->
+
+</body>
+</html>
