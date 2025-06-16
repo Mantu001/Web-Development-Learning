@@ -1,15 +1,15 @@
 // https://developer.mozilla.org/en-US/docs/Web/API/Element#mouse_events
 
 console.log("hey");
-// let button = document.getElementById("btn");
-// button.addEventListener("click", ()=>{
-//     let boxes = document.getElementById("box1");
-//     boxes.innerHTML = "now this is clicked box"
-// })
+let button = document.getElementById("btn");
+button.addEventListener("click", ()=>{
+    let boxes = document.getElementById("box1");
+    boxes.innerHTML = "now this is clicked box"
+})
 
-// button.addEventListener("contextmenu", () => {
-//     alert("you are hacked")
-// })
+button.addEventListener("contextmenu", () => {
+    alert("you are hacked")
+})
 
 let browser = document.querySelector("body")
 // browser.addEventListener("click", (e)=>{
