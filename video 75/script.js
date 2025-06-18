@@ -1,10 +1,12 @@
 // const { call } = require("function-bind");
 
-const { rejects } = require("assert");
-const { resolve } = require("path");
-const { getegid } = require("process");
+// const { rejects } = require("assert");
+// const { resolve } = require("path");
+// const { getegid } = require("process");
 
 // console.log("Mantu is a hacker");
+// console.log("hello ");
+
 // console.log("Abhishek is also a hacker");
 
 // setTimeout(() => {
@@ -17,7 +19,7 @@ const { getegid } = require("process");
 
 // console.log("the end");
 
-// anfn se arrow function run hota hai
+// // anfn se arrow function run hota hai
 // const callback = (arg) => {
 //     console.log(arg);
 // }
@@ -43,3 +45,10 @@ const { getegid } = require("process");
 // }, 2000);
 
 // console.log("this statement is after timeout")
+
+console.log("hello kaise ho ");
+
+setTimeout(() => {
+    console.log("hello ");
+
+}, 2000);

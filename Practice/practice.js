@@ -15,6 +15,8 @@
 
 // const { log } = require("console");
 
+// const { log } = require("console");
+
 
 // let nam = "45"
 // let result = parseInt(nam) + 45
@@ -382,18 +384,21 @@
 // console.log("the vale is " + a);
 
 
-let data = [
-    {Name : "Mantu", Phone : "645534546", Marks : 89},
-    {Name : "Rohan", Phone : "6455654546", Marks : 79},
-    {Name : "Krishna", Phone : "6453454546", Marks : 75},
-    {Name : "Shambhu", Phone : "64564546", Marks : 95},
-    {Name : "Parvati", Phone : "6434546", Marks : 70},
-];
+// let data = [
+//     {Name : "Mantu", Phone : "645534546", Marks : 89},
+//     {Name : "Rohan", Phone : "6455654546", Marks : 79},
+//     {Name : "Krishna", Phone : "6453454546", Marks : 75},
+//     {Name : "Shambhu", Phone : "64564546", Marks : 95},
+//     {Name : "Parvati", Phone : "6434546", Marks : 70},
+// ];
 
-data.forEach((stu, index) => {
-    console.log(stu, index+1);
+// data.forEach((stu, index) => {
+//     console.log(stu, index+1);
     
-})
+// })
+
+
+console.log("hello testing");
 
 
 
