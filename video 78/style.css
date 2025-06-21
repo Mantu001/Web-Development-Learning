@@ -1,0 +1,8 @@
+*{
+    box-sizing: border-box;
+    /* border: 2px solid red; */
+    background-color: green;
+    color: white;
+    font-family: monospace;
+    padding: 20px;
+}
